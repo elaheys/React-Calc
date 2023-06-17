@@ -1,0 +1,47 @@
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+   font-size: 30px;
+   font-family: Arial;
+}
+
+.container{
+    width: 400px;
+    height: 400px;
+    margin: 50px auto;
+}
+
+.display{
+    color: #cf7e15;
+    text-align: right;
+    font-size: 60px;
+    padding: 15px 30px;
+ }
+
+ .display2{
+   color: #ffffff;
+   text-align: center;
+   font-size: 40px;
+   padding: 20px 10px;
+ }
+
+ .keypad{
+    display: flex;
+    flex-direction: column;
+ }
+
+ .key{
+    width: 80px;
+    height: 75px;
+    border: 1px solid black;
+    text-align: center;
+    line-height: 90px;
+    border-radius: 90px;
+    margin: 5px;
+    background-color: #333333;
+    color: #ffffff;
+    cursor: pointer;
+    user-select: none;
+    font-size: 30px;
+ }
